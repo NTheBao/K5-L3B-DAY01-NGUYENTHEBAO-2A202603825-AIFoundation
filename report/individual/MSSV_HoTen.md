@@ -2,9 +2,9 @@
 
 > Đổi tên file này thành `MSSV_HoTen.md` của bạn, ví dụ `2A20260000_NguyenVanAn.md`, rồi điền từng mục. Xoá các dòng hướng dẫn in nghiêng khi xong.
 
-- **MSSV:**
+- **MSSV:*2A202603825*
 - **Họ và tên:**
-- **SEED** (in ở ô đầu notebook):
+- **SEED** (in ở ô đầu notebook):856
 
 ## 1. Bằng chứng
 
@@ -15,13 +15,15 @@
 | [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | ☐ |
 
 ## 2. Kết quả chính
-
-*Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
-
+    "baseline_accuracy": 0.8736,
+    "sigmoid_0": 0.5,
+    "f1_example": 0.73,
+    "cosine_example": 0.60,
+    "llm_cost_per_day": 10.50,
 ## 3. Dự đoán và thực tế
 
 *Chọn 3 dự đoán `predict(...)` lệch nhiều nhất so với kết quả. Mỗi cái: bạn đoán gì, ra gì, vì sao lệch.*
-
+SEED= 6835- KQ= 856- chưa hiểu cách tính
 ## 4. Phân tích 50 case khó
 
 *Model nào tụt nhiều nhất, ở nhóm case nào? Nêu 2 case cụ thể và cơ chế khiến model sai.*
@@ -37,3 +39,4 @@
 ## 7. AI log và điều đã học
 
 *Mỗi lần dùng AI: hỏi gì, nhận gì, bạn sửa gì. Sau đó 2–3 câu: điều bạn hiểu ra hôm nay mà trước đó chưa hiểu.*
+dùng hỏi công thức, khái niệm,code và debug,cách diễn đạt
